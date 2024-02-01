@@ -1,0 +1,57 @@
+{
+  "Chara": {
+    "t_c_01": {
+      "Name": "Ç†Ç†Ç†",
+      "Text": "TEST",
+      "Image": "hoge/hoge.png",
+      "CharaData": {
+        "Atk": 1000,
+        "Def": 10000,
+        "HP": 1
+      }
+    }
+  },
+  "Active": {
+    "t_a_01": {
+      "Name": "( ,,`•É÷•ÅL)›››ÅH",
+      "Text": "TEST_SKILL",
+      "Image": "hoge/boke.png",
+      "Skill": {
+        "Cost": 5,
+        "Command": [
+          {
+            "1": null
+          },
+          {
+            "2": 300
+          },
+          {
+            "3": [ 5, "Def", -5 ]
+          }
+        ]
+      }
+    }
+  },
+  "Passive": {
+    "t_p_01": {
+      "Name": "ÇﬁÇ…Ç·ÇﬁÇ…Ç·",
+      "Text": "TEST_ARMORE",
+      "Image": "hoge/armore.png",
+      "Skill": {
+        "Cost": 2,
+        "Command": [
+          {
+            "00": null
+          },
+          {
+            "2": 300
+          },
+          {
+            "3": [ 5, "Def", -5 ]
+          }
+        ]
+      }
+    }
+  }
+
+}
